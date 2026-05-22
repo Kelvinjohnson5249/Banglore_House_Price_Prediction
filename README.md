@@ -1,5 +1,5 @@
-#🏠 Bangalore House Price Prediction – ML Web Application
-## 📌 Overview
+# 🏠 Bangalore House Price Prediction – ML Web Application
+📌 Overview
 
 A production-style Machine Learning web application that predicts Bangalore house prices based on user inputs such as location, total square feet, number of bathrooms, and BHK configuration.
 The application is built using:
@@ -12,14 +12,14 @@ This project demonstrates full-stack ML deployment including model training, API
 
 ---
 
-##🚀 Live Demo
+## 🚀 Live Demo
 
-###🌐 Public URL:
-  http://ec2-16-170-159-229.eu-north-1.compute.amazonaws.com/
+🌐 Public URL:
+ http://ec2-16-170-159-229.eu-north-1.compute.amazonaws.com/
   
 ---
 
-##🏗 System Architecture
+## 🏗 System Architecture
 -User → Streamlit UI → FastAPI Backend → Trained ML Model → Price Prediction → UI Display
 -The frontend collects user inputs
 -Sends request to FastAPI backend
@@ -49,16 +49,16 @@ This project demonstrates full-stack ML deployment including model training, API
 ---
 
 ## 📊 Model Details
-###🔹 Algorithms Tested
+🔹 Algorithms Tested
 Linear Regression
 Lasso Regression
 Decision Tree Regressor
 
-###🔹 Hyperparameter Tuning
+🔹 Hyperparameter Tuning
 
 Performed using GridSearchCV with ShuffleSplit cross-validation.
 
-###🔹 Final Model Selected
+🔹 Final Model Selected
 
 Linear Regression
 Best R² Score (Test Set): 0.845
@@ -68,7 +68,7 @@ The model achieved strong generalization performance after feature engineering a
 
 ---
 
-## 🚀 How to Run This Project
+🚀 How to Run This Project
 
 1. **Clone this repository**
    ```bash
@@ -108,7 +108,8 @@ Frontend served using Streamlit
 
 Publicly accessible via EC2 DNS
 
-##👤 Author
+## 👤 Author
+
 Kelvin Johnson
 📧 kevinjohnson5249@gmail.com
 📍 New Delhi, India
